@@ -5,8 +5,3 @@ main:
   - title: "Category"
     url: /categories/
     
-main-sidebar:
-  - title: "Computing"
-    url: "/computing/"
-  - title: "FrontEnd"
-    url: "/frontend/"
