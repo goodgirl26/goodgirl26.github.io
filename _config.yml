@@ -16,23 +16,23 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "냥량IT기"
+title                    : "냥량IT기 | SOSweet Developer❤"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "냥량소녀"
-description              : "냥량소녀의 개발일지."
+description              : "냥량소녀의 개발블로그"
 url                      :  "https://goodgirl26.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+repository               :  "goodgirl26/goodgirl26.github.io"
+teaser                   :  "/assets/images/related-posts.png"
+logo                     :  "/assets/images/logo.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  provider               : "disqus" 
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : "goodgirl26-github-io"
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -52,9 +52,9 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : # true, false (default)
-search                   : # true, false (default)
-search_full_content      : # true, false (default)
-search_provider          : # lunr (default), algolia, google
+search                   : true # , false (default)
+search_full_content      : true # , false (default)
+search_provider          : lunr #  (default), algolia, google
 algolia:
   application_id         : # YOUR_APPLICATION_ID
   index_name             : # YOUR_INDEX_NAME
@@ -86,18 +86,18 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               :   "google-universal" # false (default), "e", , "google-gtag", "custom"
   google:
-    tracking_id          :
+    tracking_id          : "UA-195206292-1"
     anonymize_ip         : # true, false (default)
 
 
 # Site Author
 author:
   name             : "냥량소녀"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "냥량소녀의 개발일지"
-  location         : "Seoul"
+  avatar           : "/assets/images/avartar.png"
+  bio              : "**냥량소녀**의 개발일지"
+  location         : "Somewhere, South Korea"
   email            :
   links:
     - label: "Email"
@@ -105,7 +105,7 @@ author:
       url: "danbi2674@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "https://blog.naver.com/starmin2674"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
@@ -130,7 +130,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/goodgirl26"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -274,9 +274,10 @@ defaults:
       path: ""
       type: posts
     values:
+      show_date: true
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
