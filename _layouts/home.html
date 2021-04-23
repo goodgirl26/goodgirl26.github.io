@@ -19,10 +19,12 @@ layout: archive
   {% endfor %}
 </div>
 
-<ul>
-{% for category in site.categories %}
- <li>{{ category | first }} ({{ category | last | size }})</li>
-{% endfor %}
-</ul>
+<div style="float:right">
+  <ul>
+  {% for category in site.categories %}
+   <li>{{ category | first }} ({{ category | last | size }})</li>
+  {% endfor %}
+  </ul>
+</div>
 
 {% include paginator.html %}
