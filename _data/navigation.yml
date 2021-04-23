@@ -3,8 +3,8 @@ main:
   - title: "About"
     url: https://mmistakes.github.io/minimal-mistakes/about/
   - title: "FrontEnd"
-    url: /year-archive/
+    url: /docs/FrontEnd/
   - title: "BackEnd"
-    url: /collection-archive/
+    url: /docs/BackEnd/
   - title: "Portfolio"
     url: /sitemap/
