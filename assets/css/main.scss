@@ -6,3 +6,13 @@
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+//font
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+$serif              : 'Noto Sans KR', monospace, "PT Serif", Georgia, Times, serif;
+$sans-serif-narrow  : 'Noto Sans KR', monospace, "PT Sans Narrow", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+
+$global-font-family: $sans-serif !default;
+$header-font-family: $sans-serif !default;
+$caption-font-family: $serif !default;
