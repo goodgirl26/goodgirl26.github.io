@@ -249,13 +249,5 @@
       {% include author-profile-custom-links.html %}
     </ul>
   </div>
-  
-  <div>
-    <h4 style="color:deeppink">Menu</h4>
-    <ul>
-      {% for category in site.categories %}
-       <li>{{ category | first }} ({{ category | last | size }})</li>
-      {% endfor %}
-    </ul>
-  </div>  
+
 </div>
