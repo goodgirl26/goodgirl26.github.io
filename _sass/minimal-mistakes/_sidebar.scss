@@ -19,7 +19,7 @@
   @include breakpoint($large) {
     float: left;
     width: calc(#{$right-sidebar-width-narrow} - 1em);
-    opacity: 0.75;
+    opacity: 0.9;
     -webkit-transition: opacity 0.2s ease-in-out;
     transition: opacity 0.2s ease-in-out;
 
@@ -152,7 +152,7 @@
   }
 
   a {
-    color: pink;
+    color: inherit;
     text-decoration: none;
   }
 }
@@ -307,12 +307,12 @@
     padding-right: 5px;
     padding-top: 2px;
     padding-bottom: 2px;
-    color: pink;
+    color: inherit;
     font-size: $type-size-5;
     text-decoration: none;
 
     &:hover {
-      text-decoration: underline;
+      color:pink;
     }
   }
 }
