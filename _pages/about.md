@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: archive
 permalink: /about/
 title: "About"
 author_profile: true
