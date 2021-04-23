@@ -1,10 +1,10 @@
 # main links
 main:
   - title: "About"
-    url: https://mmistakes.github.io/minimal-mistakes/about/
+    url: https://blog.naver.com/starmin2674
   - title: "FrontEnd"
-    url: /docs/FrontEnd/
+    url: 
   - title: "BackEnd"
-    url: /docs/BackEnd/
+    url: 
   - title: "Portfolio"
-    url: /sitemap/
+    url: 
