@@ -1,10 +1,8 @@
 # main links
 main:
-  - title: "About"
-    url: https://blog.naver.com/starmin2674
-  - title: "FrontEnd"
-    url: 
-  - title: "BackEnd"
-    url: 
-  - title: "Portfolio"
-    url: 
+  - title: "Categories"
+    url: /categories/
+  - title: "Tag"
+    url: /tags/
+  - title: "Year"
+    url: /year-archive/
