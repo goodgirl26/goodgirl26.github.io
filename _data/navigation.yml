@@ -2,9 +2,13 @@
 main:
   - title: "About"
     url: /about/
-  - title: "Year"
-    url: /year-archive/
-  - title: "tag"
-    url: /tags/
+  - title: "FrontEnd"
+    url: /frontend/
+  - title: "BackEnd"
+    url: /BackEnd/
+  - title: "WEB"
+    url: /web/
+  - title: "CS"
+    url: /CS/
   - title: "Category"
     url: /categories/
