@@ -135,7 +135,7 @@ a {
   }
 
   &:hover {
-    color: deeppink;
+    color: $link-color-hover;
     outline: 0;
   }
 }
