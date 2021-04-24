@@ -12,4 +12,4 @@ author_profile: true
 
 현재 블로그 정비중입니다.
 
-Email: danbi2674@gmail.com
+**Email: danbi2674@gmail.com
