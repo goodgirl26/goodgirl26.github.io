@@ -2,8 +2,6 @@
 main:
   - title: "About"
     url: /about/
-  - title: "Year"
-    url: /year-archive/
   - title: "tag"
     url: /tags/
   - title: "Category"
