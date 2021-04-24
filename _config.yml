@@ -102,7 +102,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "https://goodgirl26.github.io/about/"
+      #url: "https://goodgirl26.github.io/about/"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://blog.naver.com/starmin2674"
