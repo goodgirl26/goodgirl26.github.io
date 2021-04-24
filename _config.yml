@@ -20,7 +20,7 @@ title                    : "냥량IT기 | SOSweet Developer"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "냥량소녀"
-description              : "냥량소녀의 개발블로그"
+description              : "This is a site that records my development studies."
 url                      :  "https://goodgirl26.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               :  "goodgirl26/goodgirl26.github.io"
