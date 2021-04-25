@@ -16,17 +16,17 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "냥량IT기 | SOSweet Developer"
-title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+title                    : "냥량IT기"
+title_separator          : "|"
+subtitle                 : SOSweet Developer
 name                     : "냥량소녀"
-description              : "This is a site that records my development studies."
+description              : "냥량소녀의 개발블로그 입니다. This is a site that records my development studies."
 url                      :  "https://goodgirl26.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               :  "goodgirl26/goodgirl26.github.io"
 teaser                   :  "/assets/images/related-posts.png"
 logo                     :  "/assets/images/logo.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : "냥량IT기 | SOSweet Developer"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
