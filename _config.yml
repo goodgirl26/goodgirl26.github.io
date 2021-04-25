@@ -26,7 +26,7 @@ baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               :  "goodgirl26/goodgirl26.github.io"
 teaser                   :  "/assets/images/related-posts.png"
 logo                     :  "/assets/images/logo.png"
-masthead_title           : "냥량IT기 | SOSweet Developer"
+masthead_title           : "냥량IT기r"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
