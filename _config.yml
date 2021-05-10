@@ -25,7 +25,7 @@ url                      :  "https://goodgirl26.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               :  "goodgirl26/goodgirl26.github.io"
 teaser                   :  "/assets/images/related-posts.png"
-logo                     :  "/assets/images/logo.png"
+logo                     :  "/assets/images/logo2.png"
 masthead_title           : "냥량IT기"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
